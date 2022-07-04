@@ -7,7 +7,7 @@ body {
   margin: 0;
 }
 
-header{
+header {
   background: url(img/hamburguer-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -18,42 +18,45 @@ header{
   height: 10em;
 }
 
-header h1{
+header h1 {
   color: white;
   position: absolute;
   bottom: 0;
   right: 1em;
 
 }
-.container{
+
+.container {
   position: relative;
   overflow: hidden;
   padding: 20px 10px;
 }
-section{
+
+section {
   border-radius: 25px;
   border: 2px solid #7a7b79;
-  padding: 20px; 
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   background-color: #dad8dd;
 }
 
-#destaque1{
-  color: rgb(228,155,44);
+#destaque1 {
+  color: rgb(228, 155, 44);
 }
-#destaque2{
-  color: rgb(210,45,34);
+
+#destaque2 {
+  color: rgb(210, 45, 34);
 }
 
 /* Grid Item */
 .item {
-	margin: 0.4em;
-	text-align: center;
-	font-size: 1.25em;
+  margin: 0.4em;
+  text-align: center;
+  font-size: 1.25em;
   position: relative;
 }
 
-.item img{
+.item img {
   width: 120px;
   height: 120px;
   border-radius: 1.2em;
@@ -67,29 +70,30 @@ section{
   padding: 1em;
   height: 15rem;
 }
-.item .conteudo h3{
-  color: rgb(222,166,95);
+
+.item .conteudo h3 {
+  color: rgb(222, 166, 95);
   text-align: left;
   margin-bottom: 0;
 }
 
-.item .conteudo p{
-text-align: left;
-margin-top: 0;
+.item .conteudo p {
+  text-align: left;
+  margin-top: 0;
 }
 
 .item span {
-float:right;
-color: rgb(200,103,114);
+  float: right;
+  color: rgb(200, 103, 114);
 }
 
 .grid {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	grid-auto-rows: 12.5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 12.5rem;
 }
 
-footer{
+footer {
   color: white;
   text-align: center;
 }
